@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MyReactTestRepo/static/css/main.5a2ee654.chunk.css",
+    "main.js": "/MyReactTestRepo/static/js/main.5f53c695.chunk.js",
+    "main.js.map": "/MyReactTestRepo/static/js/main.5f53c695.chunk.js.map",
+    "runtime-main.js": "/MyReactTestRepo/static/js/runtime-main.81a6e0c8.js",
+    "runtime-main.js.map": "/MyReactTestRepo/static/js/runtime-main.81a6e0c8.js.map",
+    "static/css/2.f5009910.chunk.css": "/MyReactTestRepo/static/css/2.f5009910.chunk.css",
+    "static/js/2.b396a41b.chunk.js": "/MyReactTestRepo/static/js/2.b396a41b.chunk.js",
+    "static/js/2.b396a41b.chunk.js.map": "/MyReactTestRepo/static/js/2.b396a41b.chunk.js.map",
+    "index.html": "/MyReactTestRepo/index.html",
+    "precache-manifest.99371048e9dc645f76c4c0f145fc76ca.js": "/MyReactTestRepo/precache-manifest.99371048e9dc645f76c4c0f145fc76ca.js",
+    "service-worker.js": "/MyReactTestRepo/service-worker.js",
+    "static/css/2.f5009910.chunk.css.map": "/MyReactTestRepo/static/css/2.f5009910.chunk.css.map",
+    "static/css/main.5a2ee654.chunk.css.map": "/MyReactTestRepo/static/css/main.5a2ee654.chunk.css.map",
+    "static/js/2.b396a41b.chunk.js.LICENSE.txt": "/MyReactTestRepo/static/js/2.b396a41b.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/MyReactTestRepo/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.81a6e0c8.js",
+    "static/css/2.f5009910.chunk.css",
+    "static/js/2.b396a41b.chunk.js",
+    "static/css/main.5a2ee654.chunk.css",
+    "static/js/main.5f53c695.chunk.js"
+  ]
+}
