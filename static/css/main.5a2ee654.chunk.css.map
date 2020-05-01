@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,wBACI,kBACF,CAEA,gBACI,cACJ,CAEA,qBACE,YAAa,CACb,UACF","file":"main.5a2ee654.chunk.css","sourcesContent":[".ui.menu .item img.logo {\r\n    margin-right: 1.5em;\r\n  }\r\n  \r\n  .main.container {\r\n      margin-top: 5em;\r\n  }\r\n  \r\n  ul.ui.list li:before {\r\n    display: none;\r\n    content: '';\r\n  }"]}
