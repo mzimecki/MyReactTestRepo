@@ -3,35 +3,25 @@ import UsersList from './UsersList'
 
 const allUsers = ['Michal', 'Kasia', 'Jacek', 'Marta', 'Tomek', 'Ania'];
 
-class App extends React.Component {
-  constructor() {
-    super();
+function App() {
+  const[filteredUsers, setUsers] = React.useState(allUsers);
 
-    this.state = {
-      filteredUsers: allUsers
-    };
+  function filterUsers(e) {
+    const text = e.currentTarget.value;    
+    setUsers(getFilteredUsersForText(text));
   }
 
-  filterUsers = (e) => {
-    const text = e.currentTarget.value;
-    const filteredUsers = this.getFilteredUsersForText(text)
-    this.setState({
-      filteredUsers
-    })
-  }
-
-  getFilteredUsersForText(text) {
+  function getFilteredUsersForText(text) {
     return allUsers.filter(user => user.toLowerCase().includes(text.toLowerCase()))
   }
-
-  render() {
-    return (
-      <div>
-        <input onInput={this.filterUsers} />
-        <UsersList users={this.state.filteredUsers} />
-      </div>
-    );
-  }
+  
+  return (
+    <div>
+      <input onInput={filterUsers} />
+      <UsersList users={filteredUsers} />
+    </div>
+  );
+  
 };
 
 export default App;
